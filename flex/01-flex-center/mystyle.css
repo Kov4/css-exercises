@@ -1,0 +1,20 @@
+.container{
+    background-color: rgb(14, 130, 238);
+    border: 5px solid rgb(30, 63, 151);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.son{
+    background-color: rgb(226, 43, 144);
+    padding: 5px;
+    border: 5px solid rgb(95, 10, 10);
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-weight: bold;
+}
