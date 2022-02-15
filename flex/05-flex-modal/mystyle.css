@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 480px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+.bloc3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+.excla{
+    background-color: lightblue;
+    color: blue;
+    font-weight: 700;
+    font-size: 26px;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.cross{
+    background-color: lightgrey;
+    color: grey;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.continue{
+    background-color: royalblue;
+    color: white;
+    border: 1px solid royalblue;
+}
+
+.cancel{
+    background-color: white;
+    color: royalblue;
+    border: 1px solid lightgrey;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
